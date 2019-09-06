@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C35A0123222C1A0091BE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A0023222C1A0091BE51 /* AppDelegate.swift */; };
+		75C35A0323222C1A0091BE51 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A0223222C1A0091BE51 /* RootViewController.swift */; };
+		75C35A0523222C1A0091BE51 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A0423222C1A0091BE51 /* DataViewController.swift */; };
+		75C35A0723222C1A0091BE51 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A0623222C1A0091BE51 /* ModelController.swift */; };
+		75C35A0A23222C1A0091BE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C35A0823222C1A0091BE51 /* Main.storyboard */; };
+		75C35A0C23222C1E0091BE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C35A0B23222C1E0091BE51 /* Assets.xcassets */; };
+		75C35A0F23222C1E0091BE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */; };
+		75C35A1A23222C1E0091BE51 /* timelessRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A1923222C1E0091BE51 /* timelessRecipesTests.swift */; };
+		75C35A2523222C1E0091BE51 /* timelessRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A2423222C1E0091BE51 /* timelessRecipesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C35A1623222C1E0091BE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C359F523222C1A0091BE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C359FC23222C1A0091BE51;
+			remoteInfo = timelessRecipes;
+		};
+		75C35A2123222C1E0091BE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C359F523222C1A0091BE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C359FC23222C1A0091BE51;
+			remoteInfo = timelessRecipes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C359FD23222C1A0091BE51 /* timelessRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timelessRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C35A0023222C1A0091BE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75C35A0223222C1A0091BE51 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		75C35A0423222C1A0091BE51 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		75C35A0623222C1A0091BE51 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		75C35A0923222C1A0091BE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75C35A0B23222C1E0091BE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C35A0E23222C1E0091BE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75C35A1023222C1E0091BE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C35A1523222C1E0091BE51 /* timelessRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelessRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C35A1923222C1E0091BE51 /* timelessRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelessRecipesTests.swift; sourceTree = "<group>"; };
+		75C35A1B23222C1E0091BE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C35A2023222C1E0091BE51 /* timelessRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelessRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C35A2423222C1E0091BE51 /* timelessRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelessRecipesUITests.swift; sourceTree = "<group>"; };
+		75C35A2623222C1F0091BE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C359FA23222C1A0091BE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1223222C1E0091BE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1D23222C1E0091BE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C359F423222C1A0091BE51 = {
+			isa = PBXGroup;
+			children = (
+				75C359FF23222C1A0091BE51 /* timelessRecipes */,
+				75C35A1823222C1E0091BE51 /* timelessRecipesTests */,
+				75C35A2323222C1E0091BE51 /* timelessRecipesUITests */,
+				75C359FE23222C1A0091BE51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C359FE23222C1A0091BE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C359FD23222C1A0091BE51 /* timelessRecipes.app */,
+				75C35A1523222C1E0091BE51 /* timelessRecipesTests.xctest */,
+				75C35A2023222C1E0091BE51 /* timelessRecipesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C359FF23222C1A0091BE51 /* timelessRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				75C35A0023222C1A0091BE51 /* AppDelegate.swift */,
+				75C35A0223222C1A0091BE51 /* RootViewController.swift */,
+				75C35A0423222C1A0091BE51 /* DataViewController.swift */,
+				75C35A0623222C1A0091BE51 /* ModelController.swift */,
+				75C35A0823222C1A0091BE51 /* Main.storyboard */,
+				75C35A0B23222C1E0091BE51 /* Assets.xcassets */,
+				75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */,
+				75C35A1023222C1E0091BE51 /* Info.plist */,
+			);
+			path = timelessRecipes;
+			sourceTree = "<group>";
+		};
+		75C35A1823222C1E0091BE51 /* timelessRecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C35A1923222C1E0091BE51 /* timelessRecipesTests.swift */,
+				75C35A1B23222C1E0091BE51 /* Info.plist */,
+			);
+			path = timelessRecipesTests;
+			sourceTree = "<group>";
+		};
+		75C35A2323222C1E0091BE51 /* timelessRecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75C35A2423222C1E0091BE51 /* timelessRecipesUITests.swift */,
+				75C35A2623222C1F0091BE51 /* Info.plist */,
+			);
+			path = timelessRecipesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C359FC23222C1A0091BE51 /* timelessRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C35A2923222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipes" */;
+			buildPhases = (
+				75C359F923222C1A0091BE51 /* Sources */,
+				75C359FA23222C1A0091BE51 /* Frameworks */,
+				75C359FB23222C1A0091BE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timelessRecipes;
+			productName = timelessRecipes;
+			productReference = 75C359FD23222C1A0091BE51 /* timelessRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C35A1423222C1E0091BE51 /* timelessRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C35A2C23222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipesTests" */;
+			buildPhases = (
+				75C35A1123222C1E0091BE51 /* Sources */,
+				75C35A1223222C1E0091BE51 /* Frameworks */,
+				75C35A1323222C1E0091BE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C35A1723222C1E0091BE51 /* PBXTargetDependency */,
+			);
+			name = timelessRecipesTests;
+			productName = timelessRecipesTests;
+			productReference = 75C35A1523222C1E0091BE51 /* timelessRecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75C35A1F23222C1E0091BE51 /* timelessRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C35A2F23222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipesUITests" */;
+			buildPhases = (
+				75C35A1C23222C1E0091BE51 /* Sources */,
+				75C35A1D23222C1E0091BE51 /* Frameworks */,
+				75C35A1E23222C1E0091BE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C35A2223222C1E0091BE51 /* PBXTargetDependency */,
+			);
+			name = timelessRecipesUITests;
+			productName = timelessRecipesUITests;
+			productReference = 75C35A2023222C1E0091BE51 /* timelessRecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C359F523222C1A0091BE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Taylor Cairns";
+				TargetAttributes = {
+					75C359FC23222C1A0091BE51 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					75C35A1423222C1E0091BE51 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 75C359FC23222C1A0091BE51;
+					};
+					75C35A1F23222C1E0091BE51 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 75C359FC23222C1A0091BE51;
+					};
+				};
+			};
+			buildConfigurationList = 75C359F823222C1A0091BE51 /* Build configuration list for PBXProject "timelessRecipes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C359F423222C1A0091BE51;
+			productRefGroup = 75C359FE23222C1A0091BE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C359FC23222C1A0091BE51 /* timelessRecipes */,
+				75C35A1423222C1E0091BE51 /* timelessRecipesTests */,
+				75C35A1F23222C1E0091BE51 /* timelessRecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C359FB23222C1A0091BE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C35A0F23222C1E0091BE51 /* LaunchScreen.storyboard in Resources */,
+				75C35A0C23222C1E0091BE51 /* Assets.xcassets in Resources */,
+				75C35A0A23222C1A0091BE51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1323222C1E0091BE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1E23222C1E0091BE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C359F923222C1A0091BE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C35A0323222C1A0091BE51 /* RootViewController.swift in Sources */,
+				75C35A0723222C1A0091BE51 /* ModelController.swift in Sources */,
+				75C35A0523222C1A0091BE51 /* DataViewController.swift in Sources */,
+				75C35A0123222C1A0091BE51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1123222C1E0091BE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C35A1A23222C1E0091BE51 /* timelessRecipesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C35A1C23222C1E0091BE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C35A2523222C1E0091BE51 /* timelessRecipesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C35A1723222C1E0091BE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C359FC23222C1A0091BE51 /* timelessRecipes */;
+			targetProxy = 75C35A1623222C1E0091BE51 /* PBXContainerItemProxy */;
+		};
+		75C35A2223222C1E0091BE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C359FC23222C1A0091BE51 /* timelessRecipes */;
+			targetProxy = 75C35A2123222C1E0091BE51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75C35A0823222C1A0091BE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C35A0923222C1A0091BE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C35A0E23222C1E0091BE51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C35A2723222C1F0091BE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C35A2823222C1F0091BE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C35A2A23222C1F0091BE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C35A2B23222C1F0091BE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75C35A2D23222C1F0091BE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timelessRecipes.app/timelessRecipes";
+			};
+			name = Debug;
+		};
+		75C35A2E23222C1F0091BE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timelessRecipes.app/timelessRecipes";
+			};
+			name = Release;
+		};
+		75C35A3023222C1F0091BE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timelessRecipes;
+			};
+			name = Debug;
+		};
+		75C35A3123222C1F0091BE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = timelessRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = s3603013.timelessRecipesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = timelessRecipes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C359F823222C1A0091BE51 /* Build configuration list for PBXProject "timelessRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C35A2723222C1F0091BE51 /* Debug */,
+				75C35A2823222C1F0091BE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C35A2923222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C35A2A23222C1F0091BE51 /* Debug */,
+				75C35A2B23222C1F0091BE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C35A2C23222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C35A2D23222C1F0091BE51 /* Debug */,
+				75C35A2E23222C1F0091BE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C35A2F23222C1F0091BE51 /* Build configuration list for PBXNativeTarget "timelessRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C35A3023222C1F0091BE51 /* Debug */,
+				75C35A3123222C1F0091BE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C359F523222C1A0091BE51 /* Project object */;
+}
