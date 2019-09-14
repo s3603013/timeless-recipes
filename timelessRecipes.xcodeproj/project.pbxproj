@@ -16,6 +16,7 @@
 		75C35A0F23222C1E0091BE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */; };
 		75C35A1A23222C1E0091BE51 /* timelessRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A1923222C1E0091BE51 /* timelessRecipesTests.swift */; };
 		75C35A2523222C1E0091BE51 /* timelessRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C35A2423222C1E0091BE51 /* timelessRecipesUITests.swift */; };
+		92FB05A6232608A2008CF790 /* recipesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB05A5232608A2008CF790 /* recipesTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		75C35A2023222C1E0091BE51 /* timelessRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelessRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C35A2423222C1E0091BE51 /* timelessRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelessRecipesUITests.swift; sourceTree = "<group>"; };
 		75C35A2623222C1F0091BE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FB05A5232608A2008CF790 /* recipesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,14 @@
 		75C359FF23222C1A0091BE51 /* timelessRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				92B0787E23238BBA00F03226 /* Model */,
+				92B0787D23238BB100F03226 /* View */,
+				92B0787C23238B9800F03226 /* ViewModel */,
 				75C35A0023222C1A0091BE51 /* AppDelegate.swift */,
 				75C35A0223222C1A0091BE51 /* RootViewController.swift */,
 				75C35A0423222C1A0091BE51 /* DataViewController.swift */,
 				75C35A0623222C1A0091BE51 /* ModelController.swift */,
-				75C35A0823222C1A0091BE51 /* Main.storyboard */,
 				75C35A0B23222C1E0091BE51 /* Assets.xcassets */,
-				75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */,
 				75C35A1023222C1E0091BE51 /* Info.plist */,
 			);
 			path = timelessRecipes;
@@ -129,6 +132,30 @@
 				75C35A2623222C1F0091BE51 /* Info.plist */,
 			);
 			path = timelessRecipesUITests;
+			sourceTree = "<group>";
+		};
+		92B0787C23238B9800F03226 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92B0787D23238BB100F03226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75C35A0823222C1A0091BE51 /* Main.storyboard */,
+				75C35A0D23222C1E0091BE51 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92B0787E23238BBA00F03226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92FB05A5232608A2008CF790 /* recipesTable.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +292,7 @@
 				75C35A0323222C1A0091BE51 /* RootViewController.swift in Sources */,
 				75C35A0723222C1A0091BE51 /* ModelController.swift in Sources */,
 				75C35A0523222C1A0091BE51 /* DataViewController.swift in Sources */,
+				92FB05A6232608A2008CF790 /* recipesTable.swift in Sources */,
 				75C35A0123222C1A0091BE51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
